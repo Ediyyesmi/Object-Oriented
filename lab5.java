@@ -23,12 +23,20 @@ print all the areas using a foreach loop.*/
 class Circle {
     private static final double PI = 3.14;
     private double radius;
+        
     public Circle(double radius){
         this.radius=radius;
     }
+        
     public double computeArea(){
         return PI * radius * radius;
     }
+
+    //cevreyi hesaplar    
+    public double computeCircumference(){
+        return 2 * PI * radius;
+    } 
+        
     public double getRadius(){
         return radius;
     }
@@ -45,8 +53,10 @@ public class Main {
         } ;
 
         for (Circle circle : circles){
-            System.out.println("area of circle with radius" + circle.getRadius() + ": "+ circle.computeArea());
-
+            System.out.println("Circle with radius " + circle.getRadius() + ":");
+            System.out.println("Area: " + circle.computeArea());
+            System.out.println("Circumference: " + circle.computeCircumference());
+            System.out.println();
         }
     }
 }
