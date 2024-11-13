@@ -11,7 +11,7 @@ public class Student{
         Student.counter++;
     }
 
-    public static int howmuch(){
+    public static int how(){
         return Student.counter;
     }
 
@@ -21,11 +21,11 @@ public class Student{
 
     public static void main(String[] args){
         Student s1 = new Student("Seyyide", 100);
-        System.out.println("number of student: "+Student.howmuch());
+        System.out.println("number of student: "+Student.how());
         Student s2 = new Student("Nur", 97);
-        System.out.println("number of student: "+Student.howmuch());
+        System.out.println("number of student: "+Student.how());
         s1.exit();
-        System.out.println("number of student :"+Student.howmuch());
+        System.out.println("number of student :"+Student.how());
 
     }
 }
