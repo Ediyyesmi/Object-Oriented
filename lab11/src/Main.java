@@ -1,3 +1,14 @@
+/* Write a class called BankAccount. The class must have 3 attributes: accountNo(int),
+holderName(String) and balance(double).
+a) Class constructor will have to set these 3 attributes.
+b) Create a balanceChange(double amount) method to reduce balance value by given amount.
+c) In the Main method:
+   1. Create 4 objects (a1, a2, a3, a4) from this class and add them all to an
+   ArrayList called myAccounts. List will only accept BankAccount type.
+   2. Sort objects by holderName in the list. (Hint: implement Comparable interface)
+   3. Reduce the balances by 500 for all the accounts and print sorted objects in the list. */
+
+
 import java.util.ArrayList;
 import java.util.Collections;
 
