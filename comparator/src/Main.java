@@ -1,8 +1,8 @@
-For the class diagram in Question 1, create a
+/*For the class diagram in Question 1, create a
 main method and do the following inside.
         (a) Create 3 SingleRoom objects, add them to a LinkedList named singleRooms.
         (b) Sort objects in the list by their PricePerNight values (Hint: Use Comparator interface)
-        (c) Sort the elements in the list and print them using foreach loop.
+        (c) Sort the elements in the list and print them using foreach loop.*/
 
 
 
